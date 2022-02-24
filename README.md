@@ -25,12 +25,10 @@ To run the EfficientFi, simply run `python main.py`
 
 The EfficientFi has the following components:
 
-$\color{green}{***class***}$ $\color{blue}{**Quantize**}$
-
-- <font color='green'>***class***</font> <font color='blue'>**Quantize**</font> : find the index of the closest embedding vector and transform the encoder output `z` into the discrete embedding vector `quantized`
-- <font color='green'>***class***</font> <font color='blue'>**Encoder**</font> : encode input `x` to `z`
-- <font color='green'>***class***</font> <font color='blue'>**Decoder**</font> : rebuild the `quantized` to `r_x`
-- <font color='green'>***class***</font> <font color='blue'>**Classifier**</font> : predict the probability of each class in `y_p`
+- ***class*** **Quantize** : find the index of the closest embedding vector and transform the encoder output `z` into the discrete embedding vector `quantized`
+- ***class*** **Encoder** : encode input `x` to `z`
+- ***class*** **Decoder** : rebuild the `quantized` to `r_x`
+- ***class*** **Classifier** : predict the probability of each class in `y_p`
 
 ## Reference
 ```

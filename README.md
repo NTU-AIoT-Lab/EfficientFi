@@ -25,13 +25,15 @@ To run the EfficientFi, simply run `python main.py`
 
 The EfficientFi has the following components:
 
+$\color{green}{***class***}$ $\color{blue}{**Quantize**}$
+
 - <font color='green'>***class***</font> <font color='blue'>**Quantize**</font> : find the index of the closest embedding vector and transform the encoder output `z` into the discrete embedding vector `quantized`
 - <font color='green'>***class***</font> <font color='blue'>**Encoder**</font> : encode input `x` to `z`
 - <font color='green'>***class***</font> <font color='blue'>**Decoder**</font> : rebuild the `quantized` to `r_x`
 - <font color='green'>***class***</font> <font color='blue'>**Classifier**</font> : predict the probability of each class in `y_p`
 
 ## Reference
-
+```
 @article{yang2022efficientfi,
   title={EfficientFi: Towards Large-Scale Lightweight WiFi Sensing via CSI Compression},
   author={Yang, Jianfei and Chen, Xinyan and Zou, Han and Wang, Dazhuo and Xu, Qianwen and Xie, Lihua},
@@ -40,3 +42,4 @@ The EfficientFi has the following components:
   publisher={IEEE},
   doi={10.1109/JIOT.2021.3139958}
 } 
+```
